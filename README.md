@@ -1,5 +1,5 @@
 ## DotFiles
-My config files for Omarchy Linux.
+My config files for MacOS.
 
 ## Previews/screenshots:
 Terminal:
