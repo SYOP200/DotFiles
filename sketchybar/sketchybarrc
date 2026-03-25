@@ -32,15 +32,6 @@ sketchybar --default "${default[@]}"
 
 #---------Left items---------
 
-sketchybar --add item apple left \
-           --set apple icon="􀣺" 
-           --set apple background.drawing=on \
-           --set apple script="$PLUGIN_DIR/apple_menu.sh" \
-             click_script="$PLUGIN_DIR/apple_menu.sh --toggle" \
-           background.color=0x99000000 \
-           background.corner_radius=8 \
-           background.height=20 \
-
 SPACE_ICONS=("1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
 for i in "${!SPACE_ICONS[@]}"
 do
