@@ -1,9 +1,27 @@
 ## DotFiles
 My config files for MacOS.
 
-## How to set up
-Before using these files, you may need to install and create Apple Shortcuts for everything to function properly. <br>
-Use the commands below in your terminal (Iterm2)
+## Install
+Before using these files, you may need to install and create Apple Shortcuts for everything to function properly. 
+```bash
+# install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# install nvim, fish, and btop
+brew install nvim && brew install fish && brew install btop
+
+# install lazyvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim && rm -rf ~/.config/nvim/.git
+
+# install sketchybar
+brew tap FelixKratz/formulae
+brew install sketchybar
+
+# install yabai and skhd
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+```
+Now install the repo:
 
 ```bash
 #1. Clone the repo
