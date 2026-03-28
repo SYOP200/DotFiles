@@ -1,5 +1,6 @@
 #!bin/bash
 
+#-----Appearance-----#
 source "$CONFIG_DIR/colors.sh"
 
 sketchybar --default icon.color=$WHITE --set background.drawing=on
