@@ -1,16 +1,3 @@
-#!/usr/bin/env sh
-
-#CURRENT_WIFI="$(/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I)"
-#SSID="$(echo "$CURRENT_WIFI" | grep -o "SSID: .*" | sed 's/^SSID: //')"
-#CURR_TX="$(echo "$CURRENT_WIFI" | grep -o "lastTxRate: .*" | sed 's/^lastTxRate: //')"
-
-#shortcuts run "Get Wi-Fi SSID"
-#output=$(shortcuts run "Get Wi-Fi SSID")
-#
-#sketchybar --set $NAME label=$output icon=􀙇
-#if $output = "-"
-#  sketchybar --set $NAME label="No Internet"
-
 #!/bin/bash
 
 # Run Apple Shortcut to get SSID
