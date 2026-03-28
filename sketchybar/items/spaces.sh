@@ -12,7 +12,7 @@ for i in "${!SPACE_ICONS[@]}"; do
     background.corner_radius=5
     background.height=25
     label.drawing=on
-    background.drawing=on
+    background.drawing=off
     script="$PLUGIN_DIR/space.sh"
     click_script="yabai -m space --focus $sid"
   )
