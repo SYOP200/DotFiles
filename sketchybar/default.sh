@@ -4,8 +4,8 @@
 default=(
   padding_left=5
   padding_right=5
-  icon.font="Hack Nerd Font:Bold:17.0"
-  label.font="Hack Nerd Font:Bold:14.0"
+  icon.font="JetBrains Mono Nerd Font:Regular:14.0"
+  label.font="JetBrains Mono Nerd Font:Regular:14.0"
   icon.color=0xffffffff
   label.color=0xffffffff
   background.color=0x99303234 \
