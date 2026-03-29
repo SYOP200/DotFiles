@@ -4,6 +4,8 @@ My config files for MacOS.
 ## Install
 Before using these files, you may need to install and create Apple Shortcuts for everything to function properly. 
 ```bash
+# install iterm2
+
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
