@@ -4,10 +4,10 @@ SCRIPTS_DIR="$CONFIG_DIR/scripts"
 ITEMS_DIR="$CONFIG_DIR/items"
 
 #-----Appearance-----#
-source "$CONFIG_DIR/appearance.sh"
+source "$SCRIPTS_DIR/appearance.sh"
 
 #-----Defaults-----#
-source "$CONFIG_DIR/default.sh"
+source "$SCRIPTS_DIR/default.sh"
 
 #-----Left-Items-----#
 source "$ITEMS_DIR/spaces.sh"
@@ -21,7 +21,7 @@ source "$ITEMS_DIR/battery.sh"
 source "$ITEMS_DIR/wifi.sh"
 
 #-----Brackets-----#
-source "$CONFIG_DIR/brackets.sh"
+source "$SCRIPTS_DIR/brackets.sh"
 
 #-----Finalize-----#
 sketchybar --update
