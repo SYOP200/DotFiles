@@ -17,11 +17,13 @@ alias ls "eza -l --tree --level=1 --icons=always --header"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
-alias g "git"
-alias c "claude"
+alias g git
+alias c claude
 alias claude-yolo "claude --dangerously-skip-permissions"
 alias update "brew upgrade"
 alias fishconfig "nvim ~/.config/fish/config.fish"
+alias neofetch "neofetch --source ~/.cache/thumbnails/logo.txt"
+alias fetch "neofetch --source ~/.cache/thumbnails/logo.txt"
 command -qv nvim && alias vim nvim
 command -qv lvim && alias Lvim lvim
 
