@@ -1,0 +1,88 @@
+version = 2
+
+[common]
+synced_files = []
+
+[[profiles]]
+name = "sketchybar"
+synced_files = [
+    ".bashrc",
+    ".config/nvim",
+    ".gitconfig",
+    ".p10k.zsh",
+    ".zprofile",
+    ".zshrc",
+    "colors.sh",
+    "items",
+    "plugins",
+    "scripts",
+    "sketchybarrc",
+]
+packages = []
+
+[[profiles]]
+name = "borders"
+synced_files = ["bordersrc"]
+packages = []
+
+[[profiles]]
+name = "nvim"
+synced_files = [
+    "LICENSE",
+    "README.md",
+    "init.lua",
+    "lazy-lock.json",
+    "lazyvim.json",
+    "lua",
+    "stylua.toml",
+]
+packages = []
+
+[[profiles]]
+name = "skhd"
+synced_files = ["skhdrc"]
+packages = []
+
+[[profiles]]
+name = "Wallpapers"
+synced_files = [
+    "macintosh-ascii-art-v0-dr1hv3peccv91.webp",
+    "sebastian-svenson-d2w-_1LJioQ-unsplash.jpg",
+]
+packages = []
+
+[[profiles]]
+name = "yabai"
+synced_files = ["yabairc"]
+packages = []
+
+[[profiles]]
+name = "btop"
+synced_files = ["btop.conf"]
+packages = []
+
+[[profiles]]
+name = "startup"
+synced_files = ["startup.sh"]
+packages = []
+
+[[profiles]]
+name = "fish"
+synced_files = [
+    "completions",
+    "config-osx.fish",
+    "config-windows.fish",
+    "config.fish",
+    "fish_plugins",
+    "functions",
+]
+packages = []
+
+[[profiles]]
+name = "Backups"
+synced_files = [
+    "colors.sh",
+    "plugins",
+    "sketchybarrc",
+]
+packages = []
